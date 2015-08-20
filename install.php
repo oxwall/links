@@ -38,7 +38,7 @@ $sql =
 CREATE TABLE `{$dbPrefix}links_link` (
   `id` INTEGER(11) NOT NULL AUTO_INCREMENT,
   `userId` INTEGER(11) NOT NULL,
-  `url` MEDIUMTEXT NOT NULL,
+  `url` MEDIUMTEXT NOT NULL ,
   `title` VARCHAR(255) COLLATE utf8_general_ci NOT NULL DEFAULT '',
   `description` MEDIUMTEXT NOT NULL,
   `timestamp` INTEGER(11) NOT NULL,
