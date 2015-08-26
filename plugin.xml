@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<plugin>
+<plugin build="10000">
 	<name>Links</name>
 	<key>links</key>
 	<description>Web links sharing, Digg-style</description>
